@@ -1,1 +1,63 @@
 
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="कथा सागर - पौराणिक कथाएँ, व्रत, मंत्र, सहस्रनामावली और भारतीय संस्कृति का ज्ञान।">
+  <title>कथा सागर | Katha Saagar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>कथा सागर</h1>
+  <p>धर्म • अध्यात्म • संस्कृति • ज्ञान</p>
+</header>
+
+<nav class="top-nav">
+  <a href="#" onclick="showHome();return false;">होम</a>
+  <a href="#" onclick="showAbout();return false;">हमारे बारे में</a>
+  <a href="#" onclick="showContact();return false;">संपर्क करें</a>
+</nav>
+
+<div class="toolbar">
+  <button class="menu-btn" onclick="toggleMenu()">☰ मेन्यू</button>
+  <input type="text" id="searchInput"
+    placeholder="कथा या विषय खोजें...">
+  <button class="search-btn" onclick="searchContent()">खोजें</button>
+</div>
+
+<div class="layout">
+
+  <aside class="sidebar" id="sidebar">
+    <h3>मुख्य मेन्यू</h3>
+    <div id="menuList"></div>
+  </aside>
+
+  <main class="content" id="content">
+    <h2>कथा सागर में आपका स्वागत है</h2>
+
+    <div class="quote">
+      <h3>✦ आज का सुविचार ✦</h3>
+      <p>
+        "सत्य के मार्ग पर चलने वाला व्यक्ति
+        कभी पराजित नहीं होता, क्योंकि सत्य ही
+        सबसे बड़ी शक्ति है।"
+      </p>
+      <span>— सुविचार</span>
+    </div>
+  </main>
+
+</div>
+
+<footer class="footer">
+  <h3>कथा सागर</h3>
+  <p>धर्म • अध्यात्म • संस्कृति • ज्ञान</p>
+  <p>भारतीय संस्कृति और ज्ञान का महासागर</p>
+  <small>© 2026 Katha Saagar. All Rights Reserved.</small>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
